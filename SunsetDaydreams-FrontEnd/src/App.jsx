@@ -6,6 +6,7 @@ import PlaceOrder from './pages/PlaceOrder'
 import Product from './pages/Product'
 import NavBar from './components/NavBar'
 import Orders from './pages/Orders'
+import Category from './pages/Category';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/orders" element={<Orders />} />
         <Route path="/place-order" element={<PlaceOrder />} />
         <Route path="/products/:productID" element={<Product />} />
+        <Route path="/:category" element={<Category />} />
       </Routes>
 
     </div>

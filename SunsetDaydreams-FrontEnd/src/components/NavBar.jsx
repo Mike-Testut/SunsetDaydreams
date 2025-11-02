@@ -9,7 +9,15 @@ const NavBar = () => {
       <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
         <NavLink to='/' className='flex flex-col items-center gap-1'>
           <p>Home</p>
-
+          <hr className='w-3/4 border-none h-[1.5px] bg-gray-700'></hr>
+        </NavLink>
+        <NavLink to='/mens' className='flex flex-col items-center gap-1'>
+          <p>Mens</p>
+          <hr className='w-3/4 border-none h-[1.5px] bg-gray-700'></hr>
+        </NavLink>
+        <NavLink to='/womens' className='flex flex-col items-center gap-1'>
+          <p>Womens</p>
+          <hr className='w-3/4 border-none h-[1.5px] bg-gray-700'></hr>
         </NavLink>
       </ul>
     </div>

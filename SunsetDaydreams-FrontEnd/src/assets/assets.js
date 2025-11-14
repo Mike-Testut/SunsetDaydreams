@@ -4,6 +4,7 @@ import BananaLeafBG from "./BananaLeafBG.png"
 import Logo from "./Logo.png"
 import PageBG from "./PageBG.png"
 import CartIcon from "./CartIcon.png"
+import SDLogo from "./SDLogo.png"
 
 
 export const assets = {
@@ -12,6 +13,7 @@ export const assets = {
     BananaLeafBG,
     Logo,
     PageBG,
-    CartIcon
+    CartIcon,
+    SDLogo
 
 }

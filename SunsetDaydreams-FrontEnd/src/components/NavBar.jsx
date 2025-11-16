@@ -20,6 +20,10 @@ const NavBar = () => {
           <p className='hover:text-black'>Womens</p>
           <hr className='w-3/4 border-none h-[1.5px] bg-gray-700 hidden' ></hr>
         </NavLink>
+        <NavLink to='/sale' className='flex flex-col items-center gap-1'>
+          <p className='hover:text-black'>SALE</p>
+          <hr className='w-3/4 border-none h-[1.5px] bg-gray-700 hidden' ></hr>
+        </NavLink>
       </ul>
       <div className='flex items-center gap-6'>
         <img src={assets.SearchIcon} alt='search icon' className='w-5 cursor-pointer' />
